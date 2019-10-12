@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/wyx318/panda/issues"
   },
-  "homepage": "https://github.com/wyx318/panda#readme"
+  "homepage": "https://github.com/wyx318/panda#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
