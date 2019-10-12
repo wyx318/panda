@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570849287254</updated>
       <workItem from="1570849290472" duration="914000" />
-      <workItem from="1570850235156" duration="3721000" />
+      <workItem from="1570850235156" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -79,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570862336341</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成按钮基本样式">
+      <created>1570865460991</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570865460991</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="npm install vue" />
-    <option name="LAST_COMMIT_MESSAGE" value="npm install vue" />
+    <MESSAGE value="完成按钮基本样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成按钮基本样式" />
   </component>
 </project>
