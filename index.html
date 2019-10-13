@@ -7,7 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>panda</title>
     <style>
-        * {margin: 0;padding: 0;box-sizing: border-box;}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         :root {
             --button-height: 32px;
             --font-size: 14px;
@@ -18,9 +23,11 @@
             --border-color: #999;
             --border-color-hover: #666;
         }
+
         #app {
             margin: 20px;
         }
+
         body {
             font-size: var(--font-size);
         }
@@ -33,22 +40,41 @@
             border-radius: var(--border-radius);
             border: 1px solid var(--border-color);
             background: var(--button-bg);
+            margin-bottom: 10px;
         }
+
         .g-button:hover {
             border-color: var(--border-color-hover);
         }
+
         .g-button:active {
             background-color: var(--button-active-bg);
         }
+
         .g-button:focus {
             outline: none;
+        }
+    </style>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
         }
     </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button>
+        按钮
+    </g-button>
+    <g-button icon="setings">
+        按钮
+    </g-button>
+    <g-button icon="setings" icon-position="right">
+        按钮
+    </g-button>
 </div>
 <script src="src/app.js"></script>
+<script src="//at.alicdn.com/t/font_1455588_72u7vp0i8ip.js"></script>
 </body>
 </html>
