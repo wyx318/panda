@@ -10,8 +10,19 @@
 </template>
 <script>
   export default {
-    //  接受传递的参数
-    props: ['icon', 'iconPosition']
+    //  接受传递的参数 给一个默认的值
+    // props: ['icon', 'iconPosition']
+    props: {
+      icon: {},
+      iconPosition: {
+        type: String,
+        default: 'left',
+        //属性检查器
+        validator(value) {
+          return !(value !== 'left' && value !== 'right');
+        }
+      }
+    }
   }
 </script>
 <style lang="scss">
