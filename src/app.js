@@ -16,6 +16,9 @@ new Vue({
 });
 // 单元测试 逻辑就是 代码符合预期  测试用例 icon loading iconposition 必须测试
 import chai from 'chai'
+import spies from 'chai-spies'
+
+chai.use(spies)
 
 const expect = chai.expect
 {
@@ -86,7 +89,7 @@ const expect = chai.expect
   vm.$el.remove() //元素删除
   vm.$destroy() //对象删除
 }
-//触发click事件 使用工具 mock
+// 5  触发click事件 使用工具 mock
 {
   const Constructor = Vue.extend(Button);
   const vm = new Constructor({
@@ -96,10 +99,12 @@ const expect = chai.expect
   });
 
   vm.$mount()
-  vm.$on('click', function () {
-    expect(1).to.eq(1)
+  let spy = chai.spy(function () {
+
   })
+  vm.$on('click', spy)
+  //希望这个函数被调用
   let button = vm.$el
   button.click()
-
+  expect(spy).to.have.been.called()
 }

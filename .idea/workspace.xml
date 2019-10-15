@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/eslintPlugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eslintPlugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
@@ -77,7 +75,7 @@
       <workItem from="1570977846733" duration="5276000" />
       <workItem from="1571063455444" duration="5872000" />
       <workItem from="1571127496320" duration="8018000" />
-      <workItem from="1571142273789" duration="7577000" />
+      <workItem from="1571142273789" duration="8485000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -170,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571155202088</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="使用 chai.expect 添加五个测试用例 单元测试 库为 chid">
+      <created>1571160374718</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571160374718</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +207,7 @@
     <MESSAGE value="检测子元素是不是 button" />
     <MESSAGE value="第一个元素不需要 margin-left-1px" />
     <MESSAGE value="修改 button-group组件 选择器的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改 button-group组件 选择器的bug" />
+    <MESSAGE value="使用 chai.expect 添加五个测试用例 单元测试 库为 chid" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.expect 添加五个测试用例 单元测试 库为 chid" />
   </component>
 </project>
