@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/wyx318/panda#readme",
   "dependencies": {
+    "ch": "^0.3.0",
     "vue": "^2.6.10",
     "vue-hot-reload-api": "^2.3.4"
   },
