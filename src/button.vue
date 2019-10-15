@@ -79,7 +79,6 @@
             order: 1;
             margin-right: 0.1em;
         }
-
         &.icon-right {
             > .content {
                 order: 1;
