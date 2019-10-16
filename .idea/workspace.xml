@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/button.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +76,8 @@
       <workItem from="1570977846733" duration="5276000" />
       <workItem from="1571063455444" duration="5872000" />
       <workItem from="1571127496320" duration="8018000" />
-      <workItem from="1571142273789" duration="8485000" />
+      <workItem from="1571142273789" duration="8644000" />
+      <workItem from="1571200565585" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -175,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571160374718</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="使用 chai.spy 监听回调函数">
+      <created>1571161311938</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1571161311938</updated>
+    </task>
+    <task id="LOCAL-00016" summary="使用 chai.spy 监听回调函数">
+      <created>1571161338409</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1571161338409</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +224,7 @@
     <MESSAGE value="第一个元素不需要 margin-left-1px" />
     <MESSAGE value="修改 button-group组件 选择器的bug" />
     <MESSAGE value="使用 chai.expect 添加五个测试用例 单元测试 库为 chid" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.expect 添加五个测试用例 单元测试 库为 chid" />
+    <MESSAGE value="使用 chai.spy 监听回调函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用 chai.spy 监听回调函数" />
   </component>
 </project>
