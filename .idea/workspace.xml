@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,7 +74,8 @@
       <workItem from="1571063455444" duration="5872000" />
       <workItem from="1571127496320" duration="8018000" />
       <workItem from="1571142273789" duration="8644000" />
-      <workItem from="1571200565585" duration="8173000" />
+      <workItem from="1571200565585" duration="8890000" />
+      <workItem from="1571317599320" duration="1649000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
