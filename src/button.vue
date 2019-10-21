@@ -13,6 +13,7 @@
   import Icon from './icon'
 
   export default {
+    name: 'panda-button',
     components: {
       'g-icon': Icon
     },
@@ -35,7 +36,7 @@
     }
   }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
   /*loading 动画设置*/
   @keyframes spic {
     0% {

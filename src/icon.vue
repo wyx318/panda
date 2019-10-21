@@ -7,10 +7,11 @@
   import './svg'
 
   export default {
+    name: 'panda-icon',
     props: ['name']
   }
 </script>
-<style xml:lang="sass">
+<style xml:lang="scss" scoped>
   .g-icon {
     width: 1em;
     height: 1em;

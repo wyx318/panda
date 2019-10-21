@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/icon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/icon.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,7 +87,7 @@
       <workItem from="1571393253605" duration="808000" />
       <workItem from="1571407271502" duration="3625000" />
       <workItem from="1571504202913" duration="1338000" />
-      <workItem from="1571632249941" duration="6336000" />
+      <workItem from="1571632249941" duration="15226000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571634271439</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="去除对 iconfont 的依赖">
+      <created>1571656067176</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1571656067176</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +266,7 @@
     <MESSAGE value=" 使用 npm test 和 npm dev-test 做自动化测试 但是 第二个出l个 BUG" />
     <MESSAGE value="发布npm包 之前 对框架名字进行修改" />
     <MESSAGE value="更新 README.md 添加持续集成认证" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 README.md 添加持续集成认证" />
+    <MESSAGE value="去除对 iconfont 的依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="去除对 iconfont 的依赖" />
   </component>
 </project>
