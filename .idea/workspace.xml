@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +86,7 @@
       <workItem from="1571407271502" duration="3625000" />
       <workItem from="1571504202913" duration="1338000" />
       <workItem from="1571632249941" duration="15391000" />
-      <workItem from="1571722394774" duration="3093000" />
+      <workItem from="1571722394774" duration="9798000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571677721105</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="添加 input.vue 组件 及其样式">
+      <created>1571735397301</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571735397301</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +281,7 @@
     <MESSAGE value="更新 README.md 添加持续集成认证" />
     <MESSAGE value="去除对 iconfont 的依赖" />
     <MESSAGE value="开始 input 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="开始 input 组件" />
+    <MESSAGE value="添加 input.vue 组件 及其样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 input.vue 组件 及其样式" />
   </component>
 </project>

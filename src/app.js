@@ -14,6 +14,11 @@ new Vue({
     loading1: false,
     loading2: false,
     loading3: false,
+  },
+  methods: {
+    inputChange(e) {
+      console.log(e.target.value)
+    }
   }
 });
 // // 单元测试 逻辑就是 代码符合预期  测试用例 icon loading iconposition 必须测试
