@@ -1,9 +1,11 @@
 <template>
   <div class="wrapper" :class="{error}">
-    <input type="text" :value="value" :disabled="disabled" :readonly="readonly">
+    <input type="text" :value="value" :disabled="disabled" :readonly="readonly"
+
+    >
     <template v-if="error">
-      <icon name="setings"></icon>
-      <span>{{error}}</span>
+      <icon name='error' class="icon-error"></icon>
+      <span class="errorMessage">{{error}}</span>
     </template>
   </div>
 </template>
@@ -49,8 +51,12 @@
 
   .wrapper {
     font-size: $font-size;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
 
+    > :not(:last-child) {
+      margin-right: .5em;
+    }
 
     > input {
       height: 32px;
@@ -70,8 +76,7 @@
 
       &[disabled], &[readonly] {
         border-color: #bbb;
-        color: #bbb;
-        /*  鼠标样式*/
+        color: #bbb; /*  鼠标样式*/
         cursor: not-allowed;
       }
     }
@@ -80,6 +85,14 @@
       > input {
         border-color: $red;
       }
+    }
+
+    .icon-error {
+      fill: $red;
+    }
+
+    .errorMessage {
+      color: $red;
     }
   }
 </style>
