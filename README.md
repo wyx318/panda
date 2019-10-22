@@ -10,9 +10,11 @@
    
    使用本框架前，请在css中开启border-box
      
-     ```
+   ```
+     
      *,*::befor,*::after{ box-sizing: border-box;}
-     ```
+     
+   ```
  IE 8及以上浏览器都支持此样式。
  
  需要设置默认的颜色等变量(后续会改为 scss 变量 )
