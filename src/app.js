@@ -14,6 +14,7 @@ new Vue({
     loading1: false,
     loading2: false,
     loading3: false,
+    message: '你好'
   },
   methods: {
     inputChange(e) {
