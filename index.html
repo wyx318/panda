@@ -1,90 +1,114 @@
 <!doctype html>
 <html lang="zh-Hans">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>panda</title>
-  <style>
-    * {margin: 0;padding: 0;box-sizing: border-box;}
-    html {
-      --button-height: 32px;
-      --font-size: 14px;
-      --button-bg: white;
-      --button-active-bg: #eee;
-      --border-radius: 4px;
-      --color: #333;
-      --border-color: #999;
-      --border-color-hover: #666;
-    }
-    #app {
-      margin: 20px;
-    }
-    body {
-      font-size: var(--font-size);
-    }
-
-  </style>
-  <style>
-    .box {margin: 20px;}
-  </style>
-  <style>
-    .g-button {
-      font-size: var(--font-size);
-      height: var(--button-height);
-      padding: 0 1em;
-      border-radius: var(--border-radius);
-      border: 1px solid var(--border-color);
-      background: var(--button-bg);
-      margin-bottom: 10px;
-    }
-    .g-button:hover {
-      border-color: var(--border-color-hover);
-    }
-    .g-button:active {
-      background-color: var(--button-active-bg);
-    }
-    .g-button:focus {
-      outline: none;
-    }
-  </style>
-  <style>
-    .icon {
-      width: 1em;
-      height: 1em;
-    }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>panda</title>
+	<style>
+		* {margin: 0;padding: 0;box-sizing: border-box;}
+		html {
+			--button-height: 32px;
+			--font-size: 14px;
+			--button-bg: white;
+			--button-active-bg: #eee;
+			--border-radius: 4px;
+			--color: #333;
+			--border-color: #999;
+			--border-color-hover: #666;
+		}
+		#app {
+			margin: 20px;
+		}
+		body {
+			font-size: var(--font-size);
+		}
+	
+	</style>
+	<style>
+		.box {margin: 20px;}
+	</style>
+	<style>
+		.g-button {
+			font-size: var(--font-size);
+			height: var(--button-height);
+			padding: 0 1em;
+			border-radius: var(--border-radius);
+			border: 1px solid var(--border-color);
+			background: var(--button-bg);
+			margin-bottom: 10px;
+		}
+		.g-button:hover {
+			border-color: var(--border-color-hover);
+		}
+		.g-button:active {
+			background-color: var(--button-active-bg);
+		}
+		.g-button:focus {
+			outline: none;
+		}
+	</style>
+	<style>
+		.icon {
+			width: 1em;
+			height: 1em;
+		}
+	</style>
 </head>
 <body>
 <div id="app">
-  <div class="box">
-    <g-input value="张三" disabled></g-input>
-    <g-input value="李四" readonly></g-input>
-    <g-input value="王五"></g-input>
-  </div>
-  <div class="box">
-    <g-input value="王五" v-model="message"></g-input>
-    <p>{{message}}</p>
-    <button @click="message+=1">+1</button>
-  </div>
-  <div style="" class="box">
-    <g-button :loading="loading1" @click="loading1 = !loading1">
-      按钮
-    </g-button>
-    <g-button icon="setings" :loading="loading2" :loading="true" @click="loading2 = !loading2">
-      按钮
-    </g-button>
-    <g-button icon="setings" :loading="loading3" icon-position="right" @click="loading3 = !loading3">
-      按钮
-    </g-button>
-    <g-button-group>
-      <g-button icon="left">上一页</g-button>
-      <g-button>更多</g-button>
-      <g-button icon="right" icon-position="right">下一页</g-button>
-    </g-button-group>
-  </div>
-  <!--  <div id="test"></div>-->
+	<g-row>
+		<g-col>1</g-col>
+		<g-col>2</g-col>
+	</g-row>
+	<g-row>
+		<g-col>1</g-col>
+		<g-col>2</g-col>
+		<g-col>3</g-col>
+	</g-row>
+	<g-row>
+		<g-col>1</g-col>
+		<g-col>2</g-col>
+		<g-col>2</g-col>
+		<g-col>2</g-col>
+	</g-row>
+	<g-row>
+		<g-col span="2">1</g-col>
+		<g-col span="22">11</g-col>
+	</g-row>
+	<g-row>
+		<g-col span="4">1</g-col>
+		<g-col span="20">11</g-col>
+	</g-row>
+	<hr>
+	<div class="box">
+		<g-input value="张三" disabled></g-input>
+		<g-input value="李四" readonly></g-input>
+		<g-input value="王五"></g-input>
+	</div>
+	<div class="box">
+		<g-input value="王五" v-model="message"></g-input>
+		<p>{{message}}</p>
+		<button @click="message+=1">+1</button>
+	</div>
+	<div style="" class="box">
+		<g-button :loading="loading1" @click="loading1 = !loading1">
+			按钮
+		</g-button>
+		<g-button icon="setings" :loading="loading2" :loading="true" @click="loading2 = !loading2">
+			按钮
+		</g-button>
+		<g-button icon="setings" :loading="loading3" icon-position="right" @click="loading3 = !loading3">
+			按钮
+		</g-button>
+		<g-button-group>
+			<g-button icon="left">上一页</g-button>
+			<g-button>更多</g-button>
+			<g-button icon="right" icon-position="right">下一页</g-button>
+		</g-button-group>
+	</div>
+	<!--  <div id="test"></div>-->
 
 </div>
 <script src="src/app.js"></script>
