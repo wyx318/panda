@@ -41,8 +41,8 @@
 <style scoped lang="scss">
 	.col {
 		height: 100px;
-		/*background: #666;*/
-		width: 50%;
+		/*!*background: #666;*!*/
+		/*width: 50%;*/
 		/*col设置占比*/
 		$class-prefix: col-;
 		@for $n from 1 through 24 {

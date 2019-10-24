@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="基本实现 row.vue 组件 和 col.vue组件 的功能">
+    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/row.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/row.vue" afterDir="false" />
     </list>
@@ -87,7 +88,7 @@
       <workItem from="1571722394774" duration="13392000" />
       <workItem from="1571818021024" duration="14510000" />
       <workItem from="1571897618870" duration="599000" />
-      <workItem from="1571932561345" duration="3337000" />
+      <workItem from="1571932561345" duration="6547000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -278,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571850537197</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="重构 row.vue 组件 和 col.vue组件">
+      <created>1571936780983</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1571936780983</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +306,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="npm install vue" />
     <MESSAGE value="完成按钮基本样式" />
     <MESSAGE value="安装 parcel" />
     <MESSAGE value="添加 icon 和 iconPosition属性" />
@@ -323,6 +330,7 @@
     <MESSAGE value="修改 README" />
     <MESSAGE value="row.vue 组件 和 col.vue组件 的雏形 完成" />
     <MESSAGE value="基本实现 row.vue 组件 和 col.vue组件 的功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本实现 row.vue 组件 和 col.vue组件 的功能" />
+    <MESSAGE value="重构 row.vue 组件 和 col.vue组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构 row.vue 组件 和 col.vue组件" />
   </component>
 </project>
