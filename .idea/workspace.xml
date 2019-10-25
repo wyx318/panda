@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
@@ -88,7 +89,7 @@
       <workItem from="1571818021024" duration="14510000" />
       <workItem from="1571897618870" duration="599000" />
       <workItem from="1571932561345" duration="7216000" />
-      <workItem from="1571973755448" duration="13756000" />
+      <workItem from="1571973755448" duration="16817000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -300,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572003278478</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="默认就是phone 样式">
+      <created>1572003770744</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1572003770744</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +328,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 icon 和 iconPosition属性" />
     <MESSAGE value="验证 iconPosition  是 left 或者 right" />
     <MESSAGE value="将svg代码 整理到 icon.vue" />
     <MESSAGE value="添加 loading  状态" />
@@ -345,6 +352,7 @@
     <MESSAGE value="重构 row.vue 组件 和 col.vue组件" />
     <MESSAGE value="添加 row.vue组件的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
-    <option name="LAST_COMMIT_MESSAGE" value="初步实现响应式" />
+    <MESSAGE value="默认就是phone 样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="默认就是phone 样式" />
   </component>
 </project>
