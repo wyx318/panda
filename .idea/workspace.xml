@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="添加 row.vue 组件的测试用例">
       <change afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +89,7 @@
       <workItem from="1571932561345" duration="7216000" />
       <workItem from="1571973755448" duration="17061000" />
       <workItem from="1572091361338" duration="3705000" />
-      <workItem from="1572169155128" duration="4439000" />
+      <workItem from="1572169155128" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -323,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572106503401</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="添加 row.vue 组件的测试用例">
+      <created>1572173926075</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1572173926075</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
