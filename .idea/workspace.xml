@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="添加 row.vue 组件的测试用例">
+      <change afterPath="$PROJECT_DIR$/test/col.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/row.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/col.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/col.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,8 @@
       <workItem from="1571897618870" duration="599000" />
       <workItem from="1571932561345" duration="7216000" />
       <workItem from="1571973755448" duration="17061000" />
-      <workItem from="1572091361338" duration="2080000" />
+      <workItem from="1572091361338" duration="3705000" />
+      <workItem from="1572169155128" duration="4439000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -314,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572026671613</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="稍稍重构了一下">
+      <created>1572106503401</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1572106503401</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,8 +343,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="将svg代码 整理到 icon.vue" />
-    <MESSAGE value="添加 loading  状态" />
     <MESSAGE value="添加 click 事件" />
     <MESSAGE value="创建 button group" />
     <MESSAGE value="检测子元素是不是 button" />
@@ -359,6 +366,8 @@
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="默认就是phone 样式" />
     <MESSAGE value="基本完成 响应式" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成 响应式" />
+    <MESSAGE value="稍稍重构了一下" />
+    <MESSAGE value="添加 row.vue 组件的测试用例" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加 row.vue 组件的测试用例" />
   </component>
 </project>
