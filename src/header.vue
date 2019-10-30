@@ -1,8 +1,13 @@
 <template>
-	<solt></solt>
+	<div class="header">
+		<slot></slot>
+	</div>
 </template>
+<script>
+  export default {
+    name: 'Pandaheader'
+  }
+</script>
 <style lang="scss" scoped>
-	.layout {
-	
-	}
+
 </style>
