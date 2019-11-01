@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,9 @@
       <workItem from="1572091361338" duration="3705000" />
       <workItem from="1572169155128" duration="9875000" />
       <workItem from="1572192571436" duration="4362000" />
-      <workItem from="1572451590818" duration="5159000" />
+      <workItem from="1572451590818" duration="5885000" />
+      <workItem from="1572493157823" duration="3547000" />
+      <workItem from="1572598518420" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -361,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572456037765</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="添加简单的动画">
+      <created>1572457809218</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1572457809218</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="第一个元素不需要 margin-left-1px" />
     <MESSAGE value="修改 button-group组件 选择器的bug" />
     <MESSAGE value="使用 chai.expect 添加五个测试用例 单元测试 库为 chid" />
     <MESSAGE value="使用 chai.spy 监听回调函数" />
@@ -406,6 +415,7 @@
     <MESSAGE value="完成 col.vue 组件的 测试用例" />
     <MESSAGE value="创建 layout sider footer content 组件" />
     <MESSAGE value="基本功能完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本功能完成" />
+    <MESSAGE value="添加简单的动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加简单的动画" />
   </component>
 </project>
