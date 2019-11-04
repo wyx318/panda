@@ -35,10 +35,31 @@ new Vue({
     message: '你好'
   },
   created() {
+    this.$toast('你好十一月', {
+      enableHtml: true,   //用于支持html
+      closeButton: {
+        text: '关闭',
+        callback(toast) {
+          //点击关闭是 回传的 数据
+          toast.log();
+          console.log('用户说知道了')
+        }
+      }
+    })
   },
   methods: {
     showToast() {
-      this.$toast('我是你大爷')
+      this.$toast('你好十一月', {
+        enableHtml: true,   //用于支持html
+        closeButton: {
+          text: '关闭',
+          callback(toast) {
+            //点击关闭是 回传的 数据
+            toast.log();
+            console.log('用户说知道了')
+          }
+        }
+      })
     }
   }
 });
