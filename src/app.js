@@ -34,38 +34,22 @@ new Vue({
     loading3: false,
     message: '你好'
   },
-  created() {
-
-    this.$toast('你好十一月', {
-      position: 'bottom',
-      enableHtml: true,   //用于支持html
-      closeButton: {
-        text: '关闭',
-        callback(toast) {
-          //点击关闭是 回传的 数据
-          toast.log();
-          console.log('用户说知道了')
-        }
-      },
-      autoClose: false,
-      autoCloseDelay: 3,
-    })
-  },
+  created() {},
   methods: {
     showToast() {
       this.$toast('你好十一月', {
-        position: 'bottom',
+        position: 'middle',
         enableHtml: true,   //用于支持html
-        closeButton: {
+        closeButton: { //点击关闭
           text: '关闭',
           callback(toast) {
             //点击关闭是 回传的 数据
             toast.log();
-            console.log('用户说知道了')
+            // console.log('用户说知道了')
           }
         },
-        autoClose: false,
-        autoCloseDelay: 3,
+        autoClose: true, // 自动关闭
+        autoCloseDelay: 3, //定时关闭
       })
     }
   }
