@@ -36,9 +36,19 @@ new Vue({
   },
   created() {},
   methods: {
-    showToast() {
+    showToast1() {
+      this.showToast('top')
+    },
+    showToast2() {
+      this.showToast('middle')
+    },
+    showToast3() {
+      this.showToast('bottom')
+    },
+    showToast(position) {
       this.$toast(`你好十一月 ${parseInt(Math.random() * 100)}`, {
-        position: 'bottom',
+        position,
+        // position: 'middle',//用於設置位置
         enableHtml: true,   //用于支持html
         closeButton: { //点击关闭
           text: '关闭',
