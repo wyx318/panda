@@ -37,8 +37,8 @@ new Vue({
   created() {},
   methods: {
     showToast() {
-      this.$toast('你好十一月', {
-        position: 'middle',
+      this.$toast(`你好十一月 ${parseInt(Math.random() * 100)}`, {
+        position: 'bottom',
         enableHtml: true,   //用于支持html
         closeButton: { //点击关闭
           text: '关闭',

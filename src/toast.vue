@@ -73,6 +73,7 @@
       },
       close() {
         this.$el.remove();//元素删除
+        this.$emit('close');
         this.$destroy() //组件死掉
       },
       log() {
@@ -106,38 +107,37 @@
 		padding: 0 16px;
 		left: 50%;
 		
-		
 		.mesage {
 			padding: 4px 0;
-		}
+			}
 		
 		.close {
 			padding-left: 16px;
 			flex-shrink: 0;
-		}
+			}
 		
 		.line {
 			height: 100%;
 			border-left: 1px solid #666666;
 			margin-left: 16px;
 			padding: 4px;
-		}
+			}
 		
 		&.position-top {
 			top: 0;
 			transform: translateX(-50%);
-		}
+			}
 		
 		&.position-bottom {
 			bottom: 0;
 			transform: translateX(-50%);
-		}
+			}
 		
 		&.position-middle {
 			top: 50%;
 			transform: translate(-50%, -50%);
+			}
 		}
-	}
 
 
 </style>
