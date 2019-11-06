@@ -58,8 +58,8 @@ new Vue({
             // console.log('用户说知道了')
           }
         },
-        autoClose: true, // 自动关闭
-        autoCloseDelay: 3, //定时关闭
+        autoClose: 3, // 自动关闭
+        // autoCloseDelay: 3, //定时关闭
       })
     }
   }
