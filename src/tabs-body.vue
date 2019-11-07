@@ -5,7 +5,10 @@
 </template>
 <script>
   export default {
-    name: 'pandaTabsBody'
+    name: 'pandaTabsBody',
+    inject: ['eventBus'],
+    created() {
+    }
   }
 </script>
 <style lang="scss" scoped>
