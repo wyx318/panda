@@ -37,7 +37,7 @@
         if (vm.$options.name === 'pandaTabsHead') {
           vm.$children.forEach((chileVm) => {
             if (chileVm.$options.name === 'pandaTabsItem' && chileVm.name === this.selected) {
-              console.log(chileVm.$el);
+              // console.log(chileVm.$el);
               this.eventBus.$emit('update:selected', this.selected, chileVm)
             }
           })

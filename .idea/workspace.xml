@@ -4,7 +4,6 @@
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,21 +108,7 @@
       <workItem from="1572970680625" duration="757000" />
       <workItem from="1573009038406" duration="9417000" />
       <workItem from="1573088658730" duration="17099000" />
-      <workItem from="1573171536607" duration="6483000" />
-    </task>
-    <task id="LOCAL-00002" summary="完成按钮基本样式">
-      <created>1570865460991</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1570865460991</updated>
-    </task>
-    <task id="LOCAL-00003" summary="安装 parcel">
-      <created>1570866155427</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1570866155427</updated>
+      <workItem from="1573171536607" duration="9791000" />
     </task>
     <task id="LOCAL-00004" summary="添加 icon 和 iconPosition属性">
       <created>1570987638320</created>
@@ -454,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573178683194</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="触发 update:selected 事件的时候 添加一个 item 数据">
+      <created>1573196897401</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1573196897401</updated>
+    </task>
+    <task id="LOCAL-00052" summary="触发 update:selected 事件的时候 添加一个 item 数据">
+      <created>1573196972405</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1573196972405</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改 README" />
     <MESSAGE value="row.vue 组件 和 col.vue组件 的雏形 完成" />
     <MESSAGE value="基本实现 row.vue 组件 和 col.vue组件 的功能" />
     <MESSAGE value="重构 row.vue 组件 和 col.vue组件" />
@@ -499,6 +497,7 @@
     <MESSAGE value="添加 tabs 相关组件 添加基本 props" />
     <MESSAGE value="完成 tabs  切换" />
     <MESSAGE value="对点击交互区域 tabs item 进行优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="对点击交互区域 tabs item 进行优化" />
+    <MESSAGE value="触发 update:selected 事件的时候 添加一个 item 数据" />
+    <option name="LAST_COMMIT_MESSAGE" value="触发 update:selected 事件的时候 添加一个 item 数据" />
   </component>
 </project>
