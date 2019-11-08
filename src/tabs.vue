@@ -32,10 +32,17 @@
       }
     },
     mounted() {
-      // console.log(this.eventBus)
-      // console.log(this)
-      this.eventBus.$emit('update:selected', this.selected)
-      // this.$emit('update:selected','xxx')
+      // console.log(this.$children);
+      this.$children.forEach((vm) => {
+        if (vm.$options.name === 'pandaTabsHead') {
+          vm.$children.forEach((chileVm) => {
+            if (chileVm.$options.name === 'pandaTabsItem' && chileVm.name === this.selected) {
+              console.log(chileVm.$el);
+              this.eventBus.$emit('update:selected', this.selected, chileVm)
+            }
+          })
+        }
+      })
     }
   }
 </script>
