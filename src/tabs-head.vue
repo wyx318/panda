@@ -14,7 +14,7 @@
     mounted() {
       this.eventBus.$on('update:selected', (item, vm) => {
         //新增一个函数到任务队列里面
-        let {width, height, top, left} = vm.$el.getBoundingClientRect();
+        let {width, left} = vm.$el.getBoundingClientRect();
         // console.log(width, height, top, left);
         this.$refs.line.style.width = `${width}px`;
         this.$refs.line.style.left = `${left}px`
@@ -25,12 +25,14 @@
 <style lang="scss" scoped>
 	$tab-height: 40px;
 	$blue: blue;
+	$border-color: #ddd;
 	.tabs-head {
 		display: flex;
 		height: $tab-height;
 		justify-content: flex-start;
 		/*border: 1px solid red;*/
 		position: relative;
+		border-bottom: 1px solid $border-color;
 		
 		> .line {
 			position: absolute;
@@ -41,7 +43,10 @@
 		
 		> .actions-wrapper {
 			margin-left: auto;
-			padding: 0 10px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 1em;
 			}
 		}
 </style>
