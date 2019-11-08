@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/tabs-body.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-head.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-item.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs-pane.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tabs.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-pane.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-pane.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +43,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +56,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\panda\test" />
       <recent name="C:\Users\DELL\Desktop\panda\src" />
     </key>
   </component>
@@ -109,21 +114,7 @@
       <workItem from="1572970680625" duration="757000" />
       <workItem from="1573009038406" duration="9417000" />
       <workItem from="1573088658730" duration="17099000" />
-      <workItem from="1573171536607" duration="10544000" />
-    </task>
-    <task id="LOCAL-00005" summary="验证 iconPosition  是 left 或者 right">
-      <created>1571073232288</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1571073232288</updated>
-    </task>
-    <task id="LOCAL-00006" summary="将svg代码 整理到 icon.vue">
-      <created>1571074204918</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1571074204918</updated>
+      <workItem from="1573171536607" duration="16097000" />
     </task>
     <task id="LOCAL-00007" summary="添加 loading  状态">
       <created>1571075679092</created>
@@ -454,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573202817716</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="完善tabs 的 样式">
+      <created>1573203599419</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1573203599419</updated>
+    </task>
+    <task id="LOCAL-00055" summary="实现 disabled 的 功能">
+      <created>1573203947362</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1573203947362</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,8 +479,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="基本实现 row.vue 组件 和 col.vue组件 的功能" />
-    <MESSAGE value="重构 row.vue 组件 和 col.vue组件" />
     <MESSAGE value="添加 row.vue组件的 align=left/right/center 属性" />
     <MESSAGE value="初步实现响应式" />
     <MESSAGE value="默认就是phone 样式" />
@@ -499,6 +502,8 @@
     <MESSAGE value="对点击交互区域 tabs item 进行优化" />
     <MESSAGE value="触发 update:selected 事件的时候 添加一个 item 数据" />
     <MESSAGE value="tabs 切换动画完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="tabs 切换动画完成" />
+    <MESSAGE value="完善tabs 的 样式" />
+    <MESSAGE value="实现 disabled 的 功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现 disabled 的 功能" />
   </component>
 </project>

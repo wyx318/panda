@@ -33,6 +33,10 @@
     },
     mounted() {
       // console.log(this.$children);
+      if (this.$children.length === 0) {
+        console && console.warn &&
+        console.warn('tabs的子组件应该是 tabs-header和tabs-nav,但你没有写')
+      }
       this.$children.forEach((vm) => {
         if (vm.$options.name === 'pandaTabsHead') {
           vm.$children.forEach((chileVm) => {
