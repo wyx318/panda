@@ -47,6 +47,11 @@
 		/*flex-grow: 1;*/
 		flex-shrink: 0;
 		padding: 0 2em;
+		cursor: pointer;
+		border: 1px solid green;
+		height: 100%;
+		display: flex;
+		align-items: center;
 		
 		&.active {
 			background: red;

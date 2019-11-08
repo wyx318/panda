@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="实现 position:top / bottom middle功能">
+    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="对三种动画进行优化">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/DELL.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/toast.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/toast.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-head.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-head.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -38,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/WebStorm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,8 +47,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\Desktop\panda\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +104,12 @@
       <workItem from="1572598518420" duration="9963000" />
       <workItem from="1572747898881" duration="2473000" />
       <workItem from="1572834657552" duration="11342000" />
-      <workItem from="1572945764247" duration="4188000" />
+      <workItem from="1572945764247" duration="5890000" />
+      <workItem from="1572970126673" duration="518000" />
+      <workItem from="1572970680625" duration="757000" />
+      <workItem from="1573009038406" duration="9417000" />
+      <workItem from="1573088658730" duration="17099000" />
+      <workItem from="1573171536607" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1570862336341</created>
@@ -415,7 +426,35 @@
       <option name="project" value="LOCAL" />
       <updated>1572948411052</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="对三种动画进行优化">
+      <created>1572950290076</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1572950290076</updated>
+    </task>
+    <task id="LOCAL-00047" summary="完成测试用例">
+      <created>1573037472713</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1573037472713</updated>
+    </task>
+    <task id="LOCAL-00048" summary="添加 tabs 相关组件 添加基本 props">
+      <created>1573100581079</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1573100581079</updated>
+    </task>
+    <task id="LOCAL-00049" summary="完成 tabs  切换">
+      <created>1573142954482</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1573142954482</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,10 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="去除对 iconfont 的依赖" />
-    <MESSAGE value="开始 input 组件" />
-    <MESSAGE value="添加 input.vue 组件 及其样式" />
-    <MESSAGE value="添加 input.vue 的 测试用例" />
     <MESSAGE value="让 input.vue 组件 支持 v-model 双向绑定 并修改测试用例 测试通过" />
     <MESSAGE value="修改 README" />
     <MESSAGE value="row.vue 组件 和 col.vue组件 的雏形 完成" />
@@ -460,6 +495,10 @@
     <MESSAGE value="实现了 只能有一个toast的 功能" />
     <MESSAGE value="解决 currentToast的 一个小 bug" />
     <MESSAGE value="实现进入动画" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现进入动画" />
+    <MESSAGE value="对三种动画进行优化" />
+    <MESSAGE value="完成测试用例" />
+    <MESSAGE value="添加 tabs 相关组件 添加基本 props" />
+    <MESSAGE value="完成 tabs  切换" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 tabs  切换" />
   </component>
 </project>
