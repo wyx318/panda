@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/tabs-body.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-head.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-item.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs-pane.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tabs.test.js" afterDir="false" />
+    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="创建 popover 组件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs-item.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -114,21 +109,8 @@
       <workItem from="1572970680625" duration="757000" />
       <workItem from="1573009038406" duration="9417000" />
       <workItem from="1573088658730" duration="17099000" />
-      <workItem from="1573171536607" duration="16097000" />
-    </task>
-    <task id="LOCAL-00007" summary="添加 loading  状态">
-      <created>1571075679092</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1571075679092</updated>
-    </task>
-    <task id="LOCAL-00008" summary="添加 click 事件">
-      <created>1571131660929</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1571131660929</updated>
+      <workItem from="1573171536607" duration="16772000" />
+      <workItem from="1573266819741" duration="8115000" />
     </task>
     <task id="LOCAL-00009" summary="创建 button group">
       <created>1571135645708</created>
@@ -459,7 +441,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573203947362</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="添加 部分测试用例">
+      <created>1573209385650</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1573209385650</updated>
+    </task>
+    <task id="LOCAL-00057" summary="创建 popover 组件">
+      <created>1573294991586</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1573294991588</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,8 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 row.vue组件的 align=left/right/center 属性" />
-    <MESSAGE value="初步实现响应式" />
     <MESSAGE value="默认就是phone 样式" />
     <MESSAGE value="基本完成 响应式" />
     <MESSAGE value="稍稍重构了一下" />
@@ -504,6 +498,8 @@
     <MESSAGE value="tabs 切换动画完成" />
     <MESSAGE value="完善tabs 的 样式" />
     <MESSAGE value="实现 disabled 的 功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现 disabled 的 功能" />
+    <MESSAGE value="添加 部分测试用例" />
+    <MESSAGE value="创建 popover 组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建 popover 组件" />
   </component>
 </project>
