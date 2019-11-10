@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="创建 popover 组件">
+    <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,14 +109,8 @@
       <workItem from="1573009038406" duration="9417000" />
       <workItem from="1573088658730" duration="17099000" />
       <workItem from="1573171536607" duration="16772000" />
-      <workItem from="1573266819741" duration="8115000" />
-    </task>
-    <task id="LOCAL-00009" summary="创建 button group">
-      <created>1571135645708</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1571135645708</updated>
+      <workItem from="1573266819741" duration="9908000" />
+      <workItem from="1573358258356" duration="4275000" />
     </task>
     <task id="LOCAL-00010" summary="检测子元素是不是 button">
       <created>1571136466290</created>
@@ -455,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573294991588</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="实现 最简单的 popover">
+      <created>1573298286851</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1573298286851</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="默认就是phone 样式" />
     <MESSAGE value="基本完成 响应式" />
     <MESSAGE value="稍稍重构了一下" />
     <MESSAGE value="添加 row.vue 组件的测试用例" />
@@ -500,6 +499,7 @@
     <MESSAGE value="实现 disabled 的 功能" />
     <MESSAGE value="添加 部分测试用例" />
     <MESSAGE value="创建 popover 组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建 popover 组件" />
+    <MESSAGE value="实现 最简单的 popover" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现 最简单的 popover" />
   </component>
 </project>
