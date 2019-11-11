@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -110,21 +111,8 @@
       <workItem from="1573088658730" duration="17099000" />
       <workItem from="1573171536607" duration="16772000" />
       <workItem from="1573266819741" duration="9908000" />
-      <workItem from="1573358258356" duration="4275000" />
-    </task>
-    <task id="LOCAL-00010" summary="检测子元素是不是 button">
-      <created>1571136466290</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1571136466290</updated>
-    </task>
-    <task id="LOCAL-00011" summary="第一个元素不需要 margin-left-1px">
-      <created>1571136860494</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1571136860494</updated>
+      <workItem from="1573358258356" duration="10760000" />
+      <workItem from="1573458852009" duration="4712000" />
     </task>
     <task id="LOCAL-00012" summary="修改 button-group组件 选择器的bug">
       <created>1571143166139</created>
@@ -455,7 +443,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573298286851</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="解决 当容器 有 overflow:hidden 造成的Bug">
+      <created>1573373598558</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1573373598559</updated>
+    </task>
+    <task id="LOCAL-00060" summary="基本完成功能">
+      <created>1573381427322</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1573381427323</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,8 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="基本完成 响应式" />
-    <MESSAGE value="稍稍重构了一下" />
     <MESSAGE value="添加 row.vue 组件的测试用例" />
     <MESSAGE value="完成 col.vue 组件的 测试用例" />
     <MESSAGE value="创建 layout sider footer content 组件" />
@@ -500,6 +500,8 @@
     <MESSAGE value="添加 部分测试用例" />
     <MESSAGE value="创建 popover 组件" />
     <MESSAGE value="实现 最简单的 popover" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现 最简单的 popover" />
+    <MESSAGE value="解决 当容器 有 overflow:hidden 造成的Bug" />
+    <MESSAGE value="基本完成功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成功能" />
   </component>
 </project>
