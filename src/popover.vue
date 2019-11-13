@@ -26,14 +26,14 @@
         this.$refs.popover.addEventListener('mouseleave', this.close)
       }
     },
-		destroyed(){
+    destroyed() {
       if (this.trigger === 'click') {
         this.$refs.popover.removeEventListener('click', this.onClick)
       } else {
         this.$refs.popover.removeEventListener('mouseenter', this.open)
         this.$refs.popover.removeEventListener('mouseleave', this.close)
       }
-		},
+    },
     computed: {
       openEvent() {
         if (this.trigger === 'click') {
@@ -160,9 +160,9 @@
 			
 			&::before, &::after {left: 10px;}
 			
-			&::before {top: 100%;border-top-color: #000;}
+			&::before {top: 100%;border-top-color: #000; }
 			
-			&::after {border-top-color: white;top: calc(100% - 1px);}
+			&::after {border-top-color: white;top: calc(100% - 1px);border-bottom: none;}
 			}
 		
 		&.position-bottom {
@@ -170,7 +170,7 @@
 			
 			&::before, &::after {left: 10px;}
 			
-			&::before {bottom: 100%;border-bottom-color: #000;}
+			&::before {bottom: 100%;border-bottom-color: #000;border-top: none;}
 			
 			&::after {border-bottom-color: white;bottom: calc(100% - 1px);}
 			}
@@ -181,7 +181,7 @@
 			
 			&::before, &::after {transform: translateY(-50%);top: 50%;}
 			
-			&::before {left: 100%;border-left-color: #000;}
+			&::before {left: 100%;border-left-color: #000; border-right: none;}
 			
 			&::after {border-left-color: white;left: calc(100% - 1px);}
 			}
@@ -191,7 +191,7 @@
 			
 			&::before, &::after {transform: translateY(-50%);top: 50%;}
 			
-			&::before {right: 100%;border-right-color: #000;}
+			&::before {right: 100%;border-right-color: #000;border-left: none;}
 			
 			&::after {border-right-color: white;right: calc(100% - 1px);}
 			}
