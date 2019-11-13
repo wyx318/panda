@@ -66,31 +66,59 @@
 		height: 100px;
 		}
 </style>
-<div id="app" style="overflow:hidden;padding: 150px;">
-	<g-popover position="bottom">
-		<template slot="content">
-			<div>popover内容</div>
-		</template>
-		<g-button>点我</g-button>
-	</g-popover>
-	<g-popover position="top">
-		<template slot="content">
-			<div>popover内容</div>
-		</template>
-		<g-button>点我</g-button>
-	</g-popover>
-	<g-popover position="left">
-		<template slot="content">
-			<div>popover内容</div>
-		</template>
-		<g-button>点我</g-button>
-	</g-popover>
-	<g-popover position="right">
-		<template slot="content">
-			<div>popover内容</div>
-		</template>
-		<g-button>点我</g-button>
-	</g-popover>
+<div id="app">
+	<div style="overflow:hidden;padding: 150px;">
+		<g-popover position="bottom">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="top">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="left">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="right">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+	</div>
+	<div style="overflow:hidden;padding: 150px; padding-bottom: 150px">
+		<g-popover position="bottom" trigger="hover">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="top" trigger="hover">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="left" trigger="hover">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+		<g-popover position="right" trigger="hover">
+			<template slot="content">
+				<div>popover内容</div>
+			</template>
+			<g-button>点我</g-button>
+		</g-popover>
+	</div>
 	
 	<!--	&lt;!&ndash; #	可以简写成下面的样式 <g-tabs selected="selectedTab" @update:selected="selectedTab = $event"> &ndash;&gt;-->
 	<!--	<g-tabs :selected.sync="selectedTab">-->
