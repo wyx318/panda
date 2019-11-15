@@ -4,7 +4,8 @@
     <list default="true" id="cce05d91-f67d-49ae-9a16-7090133d4864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/popover.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/popover.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collapse-item.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collapse.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/collapse.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,63 +113,11 @@
       <workItem from="1573171536607" duration="16772000" />
       <workItem from="1573266819741" duration="9908000" />
       <workItem from="1573358258356" duration="10760000" />
-      <workItem from="1573458852009" duration="4712000" />
-    </task>
-    <task id="LOCAL-00012" summary="修改 button-group组件 选择器的bug">
-      <created>1571143166139</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1571143166139</updated>
-    </task>
-    <task id="LOCAL-00013" summary="修改 button-group组件 选择器的bug">
-      <created>1571155202088</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1571155202088</updated>
-    </task>
-    <task id="LOCAL-00014" summary="使用 chai.expect 添加五个测试用例 单元测试 库为 chid">
-      <created>1571160374718</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1571160374718</updated>
-    </task>
-    <task id="LOCAL-00015" summary="使用 chai.spy 监听回调函数">
-      <created>1571161311938</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1571161311938</updated>
-    </task>
-    <task id="LOCAL-00016" summary="使用 chai.spy 监听回调函数">
-      <created>1571161338409</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1571161338409</updated>
-    </task>
-    <task id="LOCAL-00017" summary=" 使用 npm test 和 npm dev-test 做自动化测试 但是 第二个出l个 BUG">
-      <created>1571246243013</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1571246243013</updated>
-    </task>
-    <task id="LOCAL-00018" summary="发布npm包 之前 对框架名字进行修改">
-      <created>1571327115637</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1571327115638</updated>
-    </task>
-    <task id="LOCAL-00019" summary="更新 README.md 添加持续集成认证">
-      <created>1571634271438</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1571634271439</updated>
+      <workItem from="1573458852009" duration="6201000" />
+      <workItem from="1573577360141" duration="599000" />
+      <workItem from="1573615261897" duration="10753000" />
+      <workItem from="1573696665750" duration="9039000" />
+      <workItem from="1573783948280" duration="7007000" />
     </task>
     <task id="LOCAL-00020" summary="去除对 iconfont 的依赖">
       <created>1571656067176</created>
@@ -457,7 +406,63 @@
       <option name="project" value="LOCAL" />
       <updated>1573381427323</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="添加默认的样式">
+      <created>1573467130450</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1573467130452</updated>
+    </task>
+    <task id="LOCAL-00062" summary="支持四个方向">
+      <created>1573622085119</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1573622085121</updated>
+    </task>
+    <task id="LOCAL-00063" summary="使用表驱动重构代码">
+      <created>1573642388274</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1573642388274</updated>
+    </task>
+    <task id="LOCAL-00064" summary="支持 chick事件 触发 和 hover事件 触发">
+      <created>1573645984949</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1573645984950</updated>
+    </task>
+    <task id="LOCAL-00065" summary="添加插槽 的 close API">
+      <created>1573703273929</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1573703273931</updated>
+    </task>
+    <task id="LOCAL-00066" summary="提交 popover 第一个测试用例">
+      <created>1573747477253</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1573747477253</updated>
+    </task>
+    <task id="LOCAL-00067" summary="有一个 测试用例 暂时不通过">
+      <created>1573748786530</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1573748786530</updated>
+    </task>
+    <task id="LOCAL-00068" summary="完成 collapse 的基本样式和基本功能">
+      <created>1573821477303</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1573821477306</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,14 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="添加 row.vue 组件的测试用例" />
-    <MESSAGE value="完成 col.vue 组件的 测试用例" />
-    <MESSAGE value="创建 layout sider footer content 组件" />
-    <MESSAGE value="基本功能完成" />
-    <MESSAGE value="添加简单的动画" />
-    <MESSAGE value="添加 toast 组件 和 plugin.js" />
-    <MESSAGE value="实现 autoClose closeButton enableHTML 多行文本的功能" />
-    <MESSAGE value="实现 position:top / bottom middle功能" />
     <MESSAGE value="实现了 只能有一个toast的 功能" />
     <MESSAGE value="解决 currentToast的 一个小 bug" />
     <MESSAGE value="实现进入动画" />
@@ -502,6 +499,14 @@
     <MESSAGE value="实现 最简单的 popover" />
     <MESSAGE value="解决 当容器 有 overflow:hidden 造成的Bug" />
     <MESSAGE value="基本完成功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="基本完成功能" />
+    <MESSAGE value="添加默认的样式" />
+    <MESSAGE value="支持四个方向" />
+    <MESSAGE value="使用表驱动重构代码" />
+    <MESSAGE value="支持 chick事件 触发 和 hover事件 触发" />
+    <MESSAGE value="添加插槽 的 close API" />
+    <MESSAGE value="提交 popover 第一个测试用例" />
+    <MESSAGE value="有一个 测试用例 暂时不通过" />
+    <MESSAGE value="完成 collapse 的基本样式和基本功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成 collapse 的基本样式和基本功能" />
   </component>
 </project>
