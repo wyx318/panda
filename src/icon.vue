@@ -1,12 +1,15 @@
 <template>
-	<svg class="g-icon">
+	<svg class="g-icon" @click="$emit('click',$event)">
 		<use :xlink:href=`#i-${name}`></use>
 	</svg>
 </template>
 <script>
-  import './svg'
+  // import './svg'
 
   export default {
+    mounted() {
+      import('././svg.js').then(icon => {})
+    },
     name: 'panda-icon',
     props: ['name']
   }

@@ -13,9 +13,13 @@
 </template>
 
 <script>
+	
   import Button from "../../../src/button"
 
   export default {
+    mounted () {
+      import('./iconfont.js').then(icon => {})
+    },
     components: {
       'g-button': Button,
     },

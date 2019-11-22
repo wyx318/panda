@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/wyx318/',
   title: 'panda UI ',
   description: '一个简洁易用的UI框架',
   themeConfig: {
