@@ -17,7 +17,7 @@ module.exports = {
       },
 
       {
-        title: '组件',
+        title: '组件s',
         children: ['/components/button']
       },
     ]
