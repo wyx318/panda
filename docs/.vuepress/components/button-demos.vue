@@ -1,39 +1,21 @@
 <template>
-	<div>
-		<g-button>默认按钮</g-button>
-		<g-button icon="setings">默认按钮</g-button>
-		<g-button :loading="true">默认按钮</g-button>
-		<g-button disabled>默认按钮</g-button>
-		<pre>
-			<code>
-				{{content}}
-			</code>
-		</pre>
-	</div>
+    <div>
+        <w-button>默认按钮</w-button>
+        <w-button icon="settings">设置</w-button>
+        <w-button icon="thumbs-up">点赞</w-button>
+        <w-button icon="download" icon-position="right">下载</w-button>
+        <w-button :loading="true">登录中</w-button>
+    </div>
 </template>
 
 <script>
-	
-  import Button from "../../../src/button"
+    import Button from '../../../src/button'
+    import ButtonGroup from '../../../src/button-group'
 
-  export default {
-    mounted () {
-      import('./iconfont.js').then(icon => {})
-    },
-    components: {
-      'g-button': Button,
-    },
-    data() {
-      return {
-        content: `
-<g-button>默认按钮</g-button>
-<g-button icon="setings">默认按钮</g-button>
-<g-button :loading="true">默认按钮</g-button>
-<g-button disabled>默认按钮</g-button>
-					`
-      }
+    export default {
+        components: {
+            'w-button': Button,
+            'w-button-group': ButtonGroup
+        }
     }
-  }
 </script>
-<style lang="scss" scoped>
-</style>
