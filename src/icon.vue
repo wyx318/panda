@@ -4,12 +4,12 @@
 	</svg>
 </template>
 <script>
-  // import './svg'
+  import './svg'
 
   export default {
-    mounted() {
-      import('././svg.js').then(icon => {})
-    },
+    // mounted() {
+    //   import('././svg.js').then(icon => {})
+    // },
     name: 'panda-icon',
     props: ['name']
   }
